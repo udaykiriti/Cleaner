@@ -54,4 +54,8 @@ void clean_package_cache() {
     // Pacman (Arch)
     if (path_exists("/var/cache/pacman"))
         _run("pacman -Sc --noconfirm 2>/dev/null");
+
+    // zypper (openSUSE/SLE)
+    if (path_exists("/var/cache/zypp"))
+        _run("zypper --non-interactive clean --all 2>/dev/null");
 }

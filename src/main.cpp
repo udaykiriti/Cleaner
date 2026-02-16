@@ -78,6 +78,9 @@ int main(int argc, char *argv[]) {
 
         cout << "[+] Cleaning journal logs...\n";
         clean_journal_logs();
+
+        cout << "[+] Cleaning package manager caches...\n";
+        clean_package_cache();
     }
 
     cout << "\n[v] Cleanup complete!\n";
