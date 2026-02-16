@@ -1,13 +1,28 @@
-System Cleaner
+# System Cleaner
 
-A simple system "cleanup" utility for Linux[Depends on Distro].
+System Cleaner is a lightweight Linux cleanup utility.
 
-Cleans caches, temp files, and logs.
-Run as user for personal cleanup.
+It can clean:
+- User cache
+- Temporary directories
+- Journal logs
+- Package manager caches (apt, dnf, pacman, zypper)
+
+## Build
+
+```bash
+make
+```
+
+## Run
+
+```bash
+./system-cleaner
+```
+
 Run as root for full system cleanup.
-"Not a Big thing && useful".
+Run as a normal user for limited cleanup.
 
-Build with make.
-Run with ./system-cleaner
+## License
 
-License: GPLv3.
+GPLv3
