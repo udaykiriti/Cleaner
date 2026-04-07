@@ -1,4 +1,5 @@
-# System Cleaner
+SYSTEM CLEANER
+==============
 
 System Cleaner is a lightweight Linux cleanup utility.
 
@@ -8,21 +9,20 @@ It can clean:
 - Journal logs
 - Package manager caches (apt, dnf, pacman, zypper)
 
-## Build
+BUILD
+-----
 
-```bash
-make
-```
+    make
 
-## Run
+RUN
+---
 
-```bash
-./system-cleaner
-```
+    ./system-cleaner
 
 Run as root for full system cleanup.
 Run as a normal user for limited cleanup.
 
-## License
+LICENSE
+-------
 
 GPLv3
